@@ -1,5 +1,5 @@
 os: linux
 language: C
-script:
+script: make clean test
 sudo: required
-install:
+install: make dep
