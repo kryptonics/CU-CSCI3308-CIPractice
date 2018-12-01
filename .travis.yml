@@ -1,0 +1,5 @@
+os: linux
+language: C
+script:
+sudo: required
+install:
